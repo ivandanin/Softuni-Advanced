@@ -1,16 +1,13 @@
 package guild;
-
 public class Player {
     String name;
     String clazz;
-    String rank;
-    String description;
+    String rank = "Trial";
+    String description = "n/a";
 
     public Player(String name, String clazz) {
         this.name = name;
         this.clazz = clazz;
-        this.rank = "Trial";
-        this.description = "n/a";
     }
 
     public String getName() {
